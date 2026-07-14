@@ -6,12 +6,9 @@ __pycache__/
 *.pyd
 
 # Результаты (опционально)
-*.db
-*.sqlite
 
 # VS Code
-.vscode/
-*.code-workspace
+
 
 # Windows
 Thumbs.db
