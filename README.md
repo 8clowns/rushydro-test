@@ -103,22 +103,3 @@ SQL-запросы для анализа данных.
 | `region_stats.csv` | Статистика по регионам |
 | `top_products.csv` | Наиболее продаваемые товары |
 
----
-
-# 🛠 Используемые технологии
-
-- Python 3.x
-- Pandas
-- SQLite
-- Microsoft Excel
-- CSV
-
----
-
----
-
-# 👨‍💻 Автор
-
-**Rushydro**
-
-GitHub: https://github.com/your-username
