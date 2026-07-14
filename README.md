@@ -1,36 +1,36 @@
 # Решение тестового задания для Rushydro
 
+## Структура проекта
 Rushydro_test/
 │
 ├── data/
-│ ├── excel/ # Данные для Excel части
+│ ├── excel/
 │ │ ├── Orders_Excel.csv
 │ │ ├── Customers.csv
 │ │ ├── Products.csv
 │ │ └── OrderItems.csv
 │ │
-│ ├── python/ # Данные для Python части
+│ ├── python/
 │ │ ├── orders_python.csv
 │ │ └── product_info.csv
 │ │
-│ └── sql/ # SQLite база данных
+│ └── sql/
 │ └── test.db
 │
-├── src/ # Исходный код
+├── src/
 │ ├── excel/
-│ │ └── Rushydro_Analysis.xlsx # Готовый Excel отчет
+│ │ └── Rushydro_Analysis.xlsx
 │ ├── python/
-│ │ └── solution.py # Полное Python решение
+│ │ └── solution.py
 │ └── sql/
-│ └── queries.sql # SQL запросы (6 заданий)
+│ └── queries.sql
 │
-├── output/ # Результаты (создается автоматически)
-├── requirements.txt # Зависимости Python
+├── output/
+├── requirements.txt
 ├── .gitignore
 └── README.md
 
-
----
+text
 
 ## Запуск Python решения
 
@@ -38,25 +38,23 @@ Rushydro_test/
 
 ```bash
 python -m venv venv
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate
 pip install -r requirements.txt
+2. Запуск
+bash
 python src/python/solution.py
-
 Содержание проекта
 Excel (src/excel/Rushydro_Analysis.xlsx)
-Готовый Excel файл с выполненным заданием:
-
 Витрина данных (Power Query)
 
-Сводные таблицы (динамика по месяцам, выручка по регионам)
+Сводные таблицы
 
 Круговая диаграмма (доля категорий)
 
 Столбчатая диаграмма (топ-5 товаров)
 
 SQL (src/sql/queries.sql)
-6 запросов к SQLite базе данных:
+6 запросов:
 
 Общая выручка за 1 квартал 2024
 
@@ -71,8 +69,6 @@ SQL (src/sql/queries.sql)
 Процент повторных покупателей
 
 Python (src/python/solution.py)
-Анализ данных с использованием Polars:
-
 Загрузка и фильтрация данных
 
 Объединение таблиц
@@ -82,3 +78,6 @@ Python (src/python/solution.py)
 Агрегация по регионам
 
 Визуализация (4 графика)
+git add README.md
+git commit -m "Обновлен README"
+git push
