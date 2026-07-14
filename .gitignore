@@ -6,7 +6,6 @@ __pycache__/
 *.pyd
 
 # Результаты (опционально)
-output/
 *.db
 *.sqlite
 
@@ -28,5 +27,4 @@ Desktop.ini
 *.ipynb
 
 # Файлы данных (если не хотите заливать)
-*.csv
 !README.md
